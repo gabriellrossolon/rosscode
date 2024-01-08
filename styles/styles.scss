@@ -33,6 +33,17 @@ header {
 }
 
 .header-logo {
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+
+    width: 4rem;
+
+    img {
+        width: 100%;
+    }
+
     h1 {
         font-size: 2rem;
     }
