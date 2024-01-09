@@ -1,0 +1,71 @@
+@import "./colors";
+
+@media screen and (max-width: 1024px) {
+
+    //HEADER
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    //PRIMEIRO HERO
+
+    .hero-principal {
+        display: flex;
+        flex-direction: column;
+
+        gap: 2rem;
+    }
+
+    .hero-text {
+        width: 90%;
+        padding-top: 4rem;
+
+        a {
+            font-size: 1.3rem;
+        }
+    }
+
+    //SEGUNDO HERO
+    .hero-about-title {
+        font-size: 1.6rem;
+    }
+
+    //TERCEIRO HERO
+    .hero-proposta-img {
+        display: none;
+    }
+
+    .hero-proposta-content {
+        text-align: center;
+    }
+
+    //FOOTER 
+    .footer-cr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-pp {
+        display: none;
+    }
+
+    //ABOUTUS
+
+    .hero-aboutus {
+        display: flex;
+        flex-direction: column;
+
+        padding: 6rem  0 2rem 0;
+        gap: 2rem;
+    }
+
+    .hero-aboutus-content {
+        gap: 1rem;
+    }
+}

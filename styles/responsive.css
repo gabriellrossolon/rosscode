@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@300;400;500;700&display=swap");
+:root {
+  --cor-destaque: #0097B2;
+  --cor-principal: #C9C9C9;
+  --cor-secundaria: #000000;
+  --cor-terciaria: #FFFFFF;
+  --background-principal: rgb(23, 23, 23);
+  --header: rgba(23, 23, 23, 0.9);
+}
+
+@media screen and (max-width: 1024px) {
+  .header-nav {
+    display: none;
+  }
+  .header-phone {
+    display: none;
+  }
+  .hero-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .hero-text {
+    width: 90%;
+    padding-top: 4rem;
+  }
+  .hero-text a {
+    font-size: 1.3rem;
+  }
+  .hero-about-title {
+    font-size: 1.6rem;
+  }
+  .hero-proposta-img {
+    display: none;
+  }
+  .hero-proposta-content {
+    text-align: center;
+  }
+  .footer-cr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-pp {
+    display: none;
+  }
+  .hero-aboutus {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0 2rem 0;
+    gap: 2rem;
+  }
+  .hero-aboutus-content {
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
