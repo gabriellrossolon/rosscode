@@ -19,18 +19,20 @@
         <header>
             <div class="header-logo">
                 <img src="./assets/rc-bg.png" alt="RossCode Logo">
-                <!-- <h1>Ross<strong>Code</strong></h1> -->
             </div>
-            <div class="header-menu">   
-                <i class="fa-solid fa-bars fa-3x"></i>            
-            </div>
-            <nav class="header-nav">
+
+            <nav id="navItens" class="header-nav">
                 <ul class="header-list-container">
                     <li class="header-list-itens"><a href="/index.html">Home</a></li>
                     <li class="header-list-itens"><a href="/about.html">Sobre nós</a></li>
                     <li class="header-list-itens"><a href="#">Orçamento</a></li>
                 </ul>
             </nav>
+            
+            <div class="header-menu">
+                    <i class="fa-solid fa-bars fa-3x menu-botao" onclick="clickMenu()"></i>
+            </div>
+            
             <div class="header-icons">
                 <ul class="header-icons-container">
                     <li class="header-phone">
@@ -89,6 +91,7 @@
             <a href="#">Politica de Privacidade</a>
         </div>
     </footer>
- 
+    
+    <script src="script.js"></script>
 </body>
 </html>

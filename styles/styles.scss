@@ -58,14 +58,24 @@ header {
     }
 }
 
+
+//--------
+
+
 .header-menu {
     display: none;
+
+    i {
+        color: var(--cor-destaque);
+    }
 }
 
 .header-nav {
     display: block;
 }
 
+
+// ----
 .header-list-container {
     display: flex;
 

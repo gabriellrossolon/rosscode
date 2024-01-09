@@ -57,6 +57,9 @@ header {
 .header-menu {
   display: none;
 }
+.header-menu i {
+  color: var(--cor-destaque);
+}
 
 .header-nav {
   display: block;

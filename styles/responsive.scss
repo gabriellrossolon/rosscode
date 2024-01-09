@@ -9,21 +9,45 @@
         justify-content: space-between;
     }
 
+// -----------
+
     .header-menu {
         display: block;
     }
 
     .header-nav {
         display: none;
+
+        background-color: var(--background-principal);
+        border-left: 1px solid var(--cor-principal);
+        border-bottom: 1px solid var(--cor-principal);
+        text-align: center;
+
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+        right: 0;
     }
+
+
+
+    .header-list-container {
+        display: flex;
+        flex-direction: column;
+
+        gap: 0;
+    }
+
+    .header-list-itens {
+        padding: 1rem;
+    }
+
+// -------------
 
     .header-icons {
         display: none;
     }
 
-    .header-list-container {
-        display: none;
-    }
 
     //PRIMEIRO HERO
 
