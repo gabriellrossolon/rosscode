@@ -4,11 +4,24 @@
 
     //HEADER
 
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-menu {
+        display: block;
+    }
+
     .header-nav {
         display: none;
     }
 
-    .header-phone {
+    .header-icons {
+        display: none;
+    }
+
+    .header-list-container {
         display: none;
     }
 

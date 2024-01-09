@@ -54,6 +54,14 @@ header {
   color: var(--cor-destaque);
 }
 
+.header-menu {
+  display: none;
+}
+
+.header-nav {
+  display: block;
+}
+
 .header-list-container {
   display: flex;
   gap: 2rem;

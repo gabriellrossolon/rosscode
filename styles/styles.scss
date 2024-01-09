@@ -58,6 +58,14 @@ header {
     }
 }
 
+.header-menu {
+    display: none;
+}
+
+.header-nav {
+    display: block;
+}
+
 .header-list-container {
     display: flex;
 
@@ -92,6 +100,7 @@ header {
         list-style: none;
     }
 }
+
 
 .header-phone {
     background-color: var(--cor-terciaria);
