@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@300;400;500;700&display=swap");
 :root {
-  --cor-destaque: #0097B2;
+  --cor-destaque: #0097b2;
   --cor-principal: #C9C9C9;
   --cor-secundaria: #000000;
   --cor-terciaria: #FFFFFF;
-  --background-principal: rgb(23, 23, 23);
+  --background-principal: #171717;
   --header: rgba(23, 23, 23, 0.9);
 }
 
@@ -79,5 +79,27 @@
   }
   .hero-aboutus-content h2 {
     font-size: 4rem;
+  }
+  .budget-title {
+    text-align: center;
+  }
+  .budget-form {
+    width: 90vw;
+  }
+  .budget-form-content input {
+    font-size: 1rem;
+  }
+  .budget-form-content textarea {
+    font-size: 1rem;
+  }
+  .hero-thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 0 40vh 0;
+  }
+  .hero-thanks-img {
+    width: 60vw;
   }
 }/*# sourceMappingURL=responsive.css.map */

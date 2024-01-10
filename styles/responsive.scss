@@ -112,4 +112,39 @@
             font-size: 4rem;
         }
     }
+
+    //BUDGET 
+
+    .budget-title {
+        text-align: center;
+    }
+
+    .budget-form {
+        width: 90vw;
+    }
+
+    .budget-form-content {
+        input {
+            font-size: 1rem;
+        }
+        textarea {
+            font-size: 1rem;
+        }
+    }
+
+    //HERO-THANKS 
+
+    .hero-thanks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        padding: 8rem 0 40vh 0;
+    }
+
+    .hero-thanks-img {
+        width: 60vw;
+    }
+
 }

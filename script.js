@@ -1,4 +1,6 @@
 var menu = document.getElementById("menu");
+var formulario = document.getElementById("formulario");
+
 
 function clickMenu() {
     if(navItens.style.display == 'block') {
@@ -16,3 +18,6 @@ function changeIcon() {
            
     } 
 }  
+
+
+/////
