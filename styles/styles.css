@@ -230,6 +230,9 @@ header {
   background-color: var(--background-principal);
   padding: 3rem 0;
   gap: 5rem;
+  background: linear-gradient(90deg, #171717 50%, #181818 50%);
+  background-size: 200% 100%;
+  animation: wave 5s infinite linear;
 }
 
 .hero-proposta-img {
@@ -260,8 +263,8 @@ header {
 }
 
 .hero-proposta-solicite:hover {
-  background-color: var(--cor-principal);
-  color: var(--background-principal);
+  background-color: var(--cor-secundaria);
+  color: var(--cor-principal);
   transition: 0.5s;
 }
 
@@ -491,5 +494,13 @@ footer {
   }
   100% {
     transform: translate(0, 0);
+  }
+}
+@keyframes wave {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
   }
 }/*# sourceMappingURL=styles.css.map */
