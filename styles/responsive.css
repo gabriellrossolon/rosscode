@@ -45,7 +45,7 @@
   }
   .hero-text {
     width: 90%;
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
   .hero-text a {
     font-size: 1.3rem;
@@ -79,6 +79,14 @@
   }
   .hero-aboutus-content h2 {
     font-size: 4rem;
+  }
+  .hero-about-sec {
+    padding: 2rem 0;
+  }
+  .hero-about-sec-title {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 2rem;
   }
   .budget-title {
     text-align: center;
