@@ -94,7 +94,9 @@ header {
         text-decoration: none;
         color: var(--cor-terciaria);
 
-        font-size: 1.5rem;
+        font-size: 1rem;
+
+        text-transform: uppercase;
     }
 }
 
@@ -106,29 +108,33 @@ header {
     animation: zoom 2s infinite alternate;
 }
 
-.header-icons-container {
+.header-phone {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
-    li {
-        list-style: none;
+    // width: 14rem;
+
+    font-weight: bold;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+
+        padding: 0.3rem 0.4rem;
+        border-radius: 12px;
+
+
+        color: var(--cor-terciaria);
+        font-size: 1.2rem;
     }
 }
 
-
-.header-phone {
-    background-color: var(--cor-terciaria);
-    padding: 0.5rem;
-    border-radius: 2rem;
-
-    width: 14rem;
-    text-align: center;
-
-    a {
-        text-decoration: none;
-
-        color: var(--cor-secundaria);
-        font-size: 1.3rem;
-    }
+.fa-whatsapp {
+    color: #25D366;
 }
 
 .header-phone-call:hover {
