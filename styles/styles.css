@@ -35,6 +35,8 @@ header {
   position: fixed;
   width: 100%;
   background-color: var(--header);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   z-index: 1000;
 }
 
