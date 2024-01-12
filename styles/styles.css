@@ -114,7 +114,8 @@ header {
 
 .header-phone-call:hover {
   color: var(--cor-destaque);
-  transition: 0.3s;
+  transition: 1s;
+  animation: zoom 2s infinite alternate;
 }
 
 .hero-principal::before {
@@ -171,7 +172,9 @@ header {
 }
 
 .hero-text-letstalk:hover {
-  font-weight: bold;
+  background-color: var(--cor-destaque);
+  color: var(--cor-terciaria);
+  transition: 2s;
 }
 
 .hero-img img {
@@ -269,7 +272,7 @@ header {
 .hero-proposta-solicite:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
-  transition: 0.5s;
+  transition: 1s;
 }
 
 footer {
@@ -306,6 +309,7 @@ footer {
 
 .hero-aboutus-logo {
   width: 20rem;
+  animation: zoom 2s alternate infinite;
 }
 .hero-aboutus-logo img {
   width: 100%;
@@ -449,10 +453,12 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 8rem 0 10rem 0;
+  gap: 2rem;
 }
 
 .hero-thanks-img {
   width: 16rem;
+  animation: zoom 2s infinite alternate;
 }
 .hero-thanks-img img {
   width: 100%;
