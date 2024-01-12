@@ -70,7 +70,7 @@
   .hero-aboutus {
     display: flex;
     flex-direction: column;
-    padding: 6rem 0 2rem 0;
+    padding: 8rem 0 2rem 0;
     gap: 2rem;
   }
   .hero-aboutus-content {
@@ -80,8 +80,8 @@
   .hero-aboutus-content h2 {
     font-size: 4rem;
   }
-  .hero-about-sec {
-    padding: 2rem 0;
+  .hero-aboutus-logo {
+    width: 20rem;
   }
   .hero-about-sec-title {
     font-size: 1.6rem;
