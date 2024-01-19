@@ -13,6 +13,7 @@
   --cor-terciaria: #FFFFFF;
   --background-principal: #171717;
   --header: rgba(23, 23, 23, 0.9);
+  --cor-destaque-opaca: rgba(0, 151, 178, 0.1);
 }
 
 html {
@@ -70,12 +71,14 @@ header {
 
 .header-list-container {
   display: flex;
-  gap: 2rem;
 }
 .header-list-container li {
   list-style: none;
 }
 
+.header-list-itens {
+  padding: 0 1.5rem;
+}
 .header-list-itens a {
   text-decoration: none;
   color: var(--cor-terciaria);
@@ -116,6 +119,15 @@ header {
   color: var(--cor-destaque);
   transition: 1s;
   animation: zoom 2s infinite alternate;
+}
+
+.header-destaque {
+  border-right: 1px solid var(--cor-destaque);
+  border-left: 1px solid var(--cor-destaque);
+}
+.header-destaque a {
+  color: var(--cor-destaque);
+  font-weight: bold;
 }
 
 .hero-principal::before {

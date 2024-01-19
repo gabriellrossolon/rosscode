@@ -28,8 +28,28 @@ AOS.init();
 
 function fecharMenu() {
     navItens.style.display = 'none',
-    menu.classList.remove("fa-bars-staggered") || menu.classList.add("fa-bars"),
-
-    console.log("Click registrado")
+    menu.classList.remove("fa-bars-staggered") || menu.classList.add("fa-bars");
 }
 
+//
+
+var nomeDoDocumento = document.title;
+var buttonHome = document.getElementById("button-home");
+var buttonAbout = document.getElementById("button-about");
+var buttonBudget = document.getElementById("button-budget");
+
+function verificarPaginaAtual() {
+    var mapeamento = {
+      "RossCode | Criação de Sites": buttonHome,
+      "RossCode | Sobre Nós": buttonAbout,
+      "RossCode | Orçamento": buttonBudget,
+    };
+  
+    if (nomeDoDocumento in mapeamento) {
+      mapeamento[nomeDoDocumento].classList.add("header-destaque");
+    } else {
+        return
+    }
+  }
+
+  verificarPaginaAtual();

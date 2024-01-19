@@ -82,7 +82,7 @@ header {
 .header-list-container {
     display: flex;
 
-    gap: 2rem;
+    // gap: 1rem;
 
     li {
         list-style: none;
@@ -91,6 +91,8 @@ header {
 }
 
 .header-list-itens {
+    padding: 0 1.5rem;
+
     a {
         text-decoration: none;
         color: var(--cor-terciaria);
@@ -144,6 +146,15 @@ header {
     animation: zoom 2s infinite alternate;
 }
 
+.header-destaque {
+    border-right: 1px solid var(--cor-destaque);
+    border-left: 1px solid var(--cor-destaque);
+
+    a {
+        color: var(--cor-destaque);
+        font-weight: bold;
+    }
+}
 //ESTILOS DO PRIMEIRO HERO
 
 .hero-principal::before {

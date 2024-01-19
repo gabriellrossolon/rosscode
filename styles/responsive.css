@@ -6,6 +6,7 @@
   --cor-terciaria: #FFFFFF;
   --background-principal: #171717;
   --header: rgba(23, 23, 23, 0.9);
+  --cor-destaque-opaca: rgba(0, 151, 178, 0.1);
 }
 
 @media screen and (max-width: 1024px) {
@@ -33,7 +34,14 @@
     gap: 0;
   }
   .header-list-itens {
-    padding: 1rem;
+    padding: 2rem 4rem;
+  }
+  .header-list-itens a {
+    padding: 0.5;
+  }
+  .header-destaque {
+    border: none;
+    background-color: var(--cor-destaque-opaca);
   }
   .header-icons {
     display: none;
