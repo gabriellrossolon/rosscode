@@ -1,5 +1,6 @@
 var menu = document.getElementById("menu");
 var formulario = document.getElementById("formulario");
+var navItens = document.getElementById("navItens");
 
 
 function clickMenu() {
@@ -22,3 +23,13 @@ function changeIcon() {
 /////
 
 AOS.init();
+
+/////
+
+function fecharMenu() {
+    navItens.style.display = 'none',
+    menu.classList.remove("fa-bars-staggered") || menu.classList.add("fa-bars"),
+
+    console.log("Click registrado")
+}
+
