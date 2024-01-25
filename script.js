@@ -27,8 +27,11 @@ AOS.init();
 /////
 
 function fecharMenu() {
-    navItens.style.display = 'none',
-    menu.classList.remove("fa-bars-staggered") || menu.classList.add("fa-bars");
+    if (window.innerWidth < 1024) {
+        navItens.style.display = 'none',
+        menu.classList.remove("fa-bars-staggered") || menu.classList.add("fa-bars");
+    }
+
 }
 
 //
