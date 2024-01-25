@@ -189,6 +189,9 @@ header {
   transition: 2s;
 }
 
+.hero-img {
+  width: 30%;
+}
 .hero-img img {
   width: 100%;
 }

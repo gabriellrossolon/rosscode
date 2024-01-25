@@ -58,6 +58,12 @@
   .hero-text a {
     font-size: 1.3rem;
   }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 100%;
+  }
   .hero-about-title {
     font-size: 1.6rem;
   }
