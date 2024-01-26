@@ -105,6 +105,9 @@
   .budget-title {
     text-align: center;
   }
+  .budget-title h1 {
+    font-size: 2.2rem;
+  }
   .budget-form {
     width: 90vw;
   }

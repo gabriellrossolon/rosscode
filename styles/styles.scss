@@ -621,6 +621,24 @@ footer {
     }
 }
 
+//BTN-FIXO
+
+.btn-top {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 1rem;
+    z-index: 99;
+    
+    // background-color: green;
+    
+    padding: 1rem;
+    border-radius: 50%;
+  
+    // display: none;
+
+    animation: zoom 2s infinite alternate;
+  }
+
 //KEYFRAMES
 
 @keyframes moveUpDown {

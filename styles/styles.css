@@ -494,6 +494,16 @@ footer {
   font-size: 1.2rem;
 }
 
+.btn-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1rem;
+  z-index: 99;
+  padding: 1rem;
+  border-radius: 50%;
+  animation: zoom 2s infinite alternate;
+}
+
 @keyframes moveUpDown {
   0%, 100% {
     transform: translateY(10px);
