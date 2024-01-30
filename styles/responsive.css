@@ -49,6 +49,7 @@
   .hero-principal {
     display: flex;
     flex-direction: column;
+    padding: 6rem 0 2rem 0;
     gap: 2rem;
   }
   .hero-text {
@@ -59,7 +60,7 @@
     font-size: 1.3rem;
   }
   .hero-img {
-    width: 100%;
+    width: 80%;
   }
   .hero-img img {
     width: 100%;

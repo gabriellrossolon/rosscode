@@ -187,7 +187,7 @@ header {
 
     gap: 6rem;
 
-    padding: 6rem 0;
+    padding: 8rem 0 6rem 0;
 }
 
 .hero-text {
@@ -235,7 +235,7 @@ header {
 
 .hero-img {
 
-    width: 30%;
+    width: 25%;
 
     img {
         width: 100%;
@@ -572,10 +572,10 @@ footer {
     }
 }
 
-.budget-form-submit:hover {
-    input {
+.budget-form-submit {
+    input:hover {
         background-color: var(--cor-destaque);
-        transition: 0.5s;
+        transition: 1s;
     }
     
 }
