@@ -87,7 +87,7 @@ header {
 }
 
 .header-list-itens:hover {
-  animation: zoom 2s infinite alternate;
+  animation: zoom 1s infinite alternate;
 }
 .header-list-itens:hover a {
   color: var(--cor-destaque);
@@ -186,7 +186,7 @@ header {
 .hero-text-letstalk:hover {
   background-color: var(--cor-destaque);
   color: var(--cor-terciaria);
-  transition: 2s;
+  transition: 0.5s;
 }
 
 .hero-img {

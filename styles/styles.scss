@@ -108,7 +108,7 @@ header {
         color: var(--cor-destaque);
         transition: 0.4s;
     }
-    animation: zoom 2s infinite alternate;
+    animation: zoom 1s infinite alternate;
 }
 
 .header-phone {
@@ -229,7 +229,7 @@ header {
 .hero-text-letstalk:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-terciaria);
-    transition: 2s;
+    transition: 0.5s;
     
 }
 
