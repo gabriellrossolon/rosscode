@@ -29,7 +29,6 @@ Foi mantido online durante o ano de **2024** e me proporcionou um grande aprendi
 
 - Página inicial com introdução e chamada profissional  
 - Seção de projetos com links diretos para repositórios e demonstrações  
-- Tema **dark/light** com alternância suave  
 - Layout 100% responsivo (mobile, tablet, desktop)  
 - Contato direto por e-mail e redes sociais
 
