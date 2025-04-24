@@ -21,7 +21,7 @@ Foi mantido online durante o ano de **2024** e me proporcionou um grande aprendi
 - **CSS3** – layout responsivo, estilização modular e animações suaves  
 - **JavaScript** – interações com o usuário (tema escuro/claro, navegação fluida)  
 - **HostGator** – hospedagem e gerenciamento do site  
-- **Domínio personalizado** – conectado via DNS para acesso direto
+- **Domínio Registro.br** – vinculado ao painel da Hostgator
 
 ---
 
